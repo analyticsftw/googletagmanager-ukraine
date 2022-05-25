@@ -1,0 +1,66 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2022-05-25 07:37:15",
+    "containerVersion": {
+        "path": "accounts/4701084964/containers/66824077/versions/0",
+        "accountId": "4701084964",
+        "containerId": "66824077",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/4701084964/containers/66824077",
+            "accountId": "4701084964",
+            "containerId": "66824077",
+            "name": "For Russian websites",
+            "publicId": "GTM-PD576TD",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1653463318743",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/4701084964/containers/66824077/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "4701084964",
+                "containerId": "66824077",
+                "tagId": "3",
+                "name": "Alert - RU + EN + Redirect",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script>\n  function slava_ukraini(){\n    alert(\"«Спецоперация» на Украине (вторжение) проваливается.\\nЭто неудавшееся вторжение уже привело к гибели более 30 000 русских.\\nКогда это прекратится? Что вы будете с этим делать?\\n\\nThe \\\"special military operation\\\" in Ukraine (invasion) is failing. This failed invasion has already caused more than 30000 russian casualties.\\nWhen will it stop? What will you do about it?\");\n  }\n  var su=0;\n  while (su<5){\n    slava_ukraini(su);\n    su++;\n  }\n  window.location=\"https://www.aljazeera.com/tag/ukraine-russia-crisis/\";\n</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1653464214536",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "4",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "4701084964",
+                "containerId": "66824077",
+                "folderId": "4",
+                "name": "Slava Ukraini",
+                "fingerprint": "1653464208702"
+            }
+        ],
+        "fingerprint": "1653464235630",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/4701084964/containers/66824077/versions/0?apiLink=version"
+    }
+}
